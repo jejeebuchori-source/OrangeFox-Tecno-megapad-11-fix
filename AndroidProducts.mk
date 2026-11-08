@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_TECNO-T1101.mk
+    $(LOCAL_DIR)/twrp_T1101.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_TECNO-T1101-eng \
-    twrp_TECNO-T1101-userdebug \
-    twrp_TECNO-T1101-user
+    twrp_T1101-eng \
+    twrp_T1101-userdebug \
+    twrp_T1101-user

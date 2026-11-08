@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-T1101
+DEVICE_PATH := device/tecno/T1101
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -43,7 +43,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := TECNO-T1101
+TARGET_BOOTLOADER_BOARD_NAME := T1101
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -62,8 +62,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 # (no kernel source: prebuilt kernel from stock boot.img is used)
-#TARGET_KERNEL_CONFIG := TECNO-T1101_defconfig
-#TARGET_KERNEL_SOURCE := kernel/tecno/TECNO-T1101
+#TARGET_KERNEL_CONFIG := T1101_defconfig
+#TARGET_KERNEL_SOURCE := kernel/tecno/T1101
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

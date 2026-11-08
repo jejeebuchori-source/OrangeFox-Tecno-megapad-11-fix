@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_TECNO-T1101-eng
-add_lunch_combo twrp_TECNO-T1101-userdebug
-
 # --- OrangeFox flags (unknown flags are simply ignored by the build) ---
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_VIRTUAL_AB_DEVICE=1
